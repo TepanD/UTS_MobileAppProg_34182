@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UTS_MobileAppProg_34182</string>
+    <string name="activity_main_title">SFX Library and Previewer</string>
+    <string name="btn_profile">profile</string>
+    <string name="btn_library">library</string>
+
+    <string name="nama_mahasiswa">Stefan Dharmawan</string>
+    <string name="nim_mahasiswa">00000034182</string>
+    <string name="kelas_mahasiswa">IF 570 - BL</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="120dp"
+        android:paddingVertical="25dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_title"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:src="@drawable/ic_baseline_volume_up_24" />
+
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50dp"
+            android:layout_marginVertical="30dp"
+            android:background="@drawable/custom_button"
+            android:textColor="#ffffff"
+            android:text="@string/btn_profile"/>
+
+        <Button
+            android:id="@+id/btn_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="50dp"
+            android:background="@drawable/custom_button"
+            android:text="@string/btn_library"/>
+    </LinearLayout>
+</LinearLayout>
