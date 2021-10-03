@@ -31,7 +31,7 @@ public class AudioGallery extends AppCompatActivity {
         Intent loginIntent = getIntent();
         String name_login = loginIntent.getStringExtra(INPUT_LOGIN);
         this.getSupportActionBar().setTitle(name_login);
-        Toast.makeText(this, name_login, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Selamat datang " + name_login, Toast.LENGTH_SHORT).show();
 
         inputAudio();
         rvAudioGallery = findViewById(R.id.recyclerView);
