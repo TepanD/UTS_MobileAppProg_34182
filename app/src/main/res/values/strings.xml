@@ -11,4 +11,10 @@
     <string name="login_page_heading">Login Page</string>
     <string name="login_page_hint">Masukkan nama Anda...</string>
     <string name="btn_login">login</string>
+
+    <string name="option_profile">Profile</string>
+    <string name="option_home">Home</string>
+
+    <string name="btn_play">play</string>
+
 </resources>

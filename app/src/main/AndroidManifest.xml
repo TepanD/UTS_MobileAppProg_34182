@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS_MobileAppProg_34182">
         <activity
+            android:name=".AudioPlayer"
+            android:exported="true"
+            android:parentActivityName=".AudioGallery">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AudioGallery" />
+        </activity>
+        <activity
+            android:name=".AudioGallery"
+            android:exported="true" />
+        <activity
             android:name=".LoginPage"
             android:exported="true" />
         <activity

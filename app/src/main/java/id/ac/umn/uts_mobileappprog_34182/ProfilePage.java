@@ -14,8 +14,6 @@ public class ProfilePage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page);
 
-//        mActionBarToolbar = (Toolbar) this.getSupportActionBar();
-//        setSupportActionBar(mActionBarToolbar);
         this.getSupportActionBar().setTitle("Profile");
     }
 }

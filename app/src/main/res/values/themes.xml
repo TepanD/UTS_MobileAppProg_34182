@@ -2,9 +2,9 @@
     <!-- Base application theme. -->
     <style name="Theme.UTS_MobileAppProg_34182" parent="Theme.AppCompat">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">#ff9068</item>
+        <item name="colorPrimaryVariant">#FD746C</item>
+        <item name="colorOnPrimary">@color/text_grey</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
