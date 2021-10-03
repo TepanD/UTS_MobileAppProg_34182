@@ -17,4 +17,18 @@
 
     <string name="btn_play">play</string>
 
+    <string name="reference_1">https://stackoverflow.com/questions/26486730/in-android-app-toolbar-settitle-method-has-no-effect-application-name-is-shown</string>
+    <string name="reference_2">https://developer.android.com/training/basics/firstapp/starting-activity#java</string>
+    <string name="reference_3">https://www.youtube.com/watch?v=nlPtfncjOWA&amp;ab_channel=Stevdza-San</string>
+    <string name="reference_4">modul matakuliah Mobile App Programming</string>
+    <string name="reference_5">https://github.com/hdodenhof/CircleImageView</string>
+    <string name="reference_6">https://stackoverflow.com/questions/43143468/how-to-center-the-elements-in-constraintlayout</string>
+    <string name="reference_7">https://stackoverflow.com/questions/11535011/edittext-field-is-required-before-moving-on-to-another-activity</string>
+    <string name="reference_8">https://stackoverflow.com/questions/21711468/center-a-drawable-in-a-button-with-background-and-no-text/21713921</string>
+    <string name="reference_9">https://mixkit.co/free-sound-effects/</string>
+    <string name="reference_10">https://www.tutlane.com/tutorial/android/android-options-menu-with-examples</string>
+    <string name="reference_11">https://www.youtube.com/watch?v=C_Ka7cKwXW0&amp;ab_channel=CodinginFlow</string>
+    <string name="reference_12">https://stackoverflow.com/questions/26076965/android-recyclerview-addition-removal-of-items</string>
+    <string name="reference_13">https://stackoverflow.com/questions/19184154/dynamically-set-parent-activity</string>
+    <string name="github_repo">Github Repo</string>
 </resources>

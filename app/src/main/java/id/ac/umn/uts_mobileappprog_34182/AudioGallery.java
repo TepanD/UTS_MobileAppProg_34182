@@ -59,6 +59,7 @@ public class AudioGallery extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.opt_home_page:
                 Intent intent = new Intent(AudioGallery.this, MainActivity.class);
+                intent.putExtra("ParentCheck", "true");
                 startActivity(intent);
                 return true;
             case R.id.opt_profile_page:
