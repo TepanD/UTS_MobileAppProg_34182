@@ -52,7 +52,8 @@
                     android:textAlignment="center"/>
                 <Button
                     android:id="@+id/btn_repo"
-                    android:layout_marginVertical="24dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="18dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/github_mark_32px"
@@ -72,6 +73,17 @@
                 android:layout_marginBottom="32dp"
                 android:paddingHorizontal="50dp"
                 >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:autoLink="web"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/reference_title"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_grey"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="match_parent"

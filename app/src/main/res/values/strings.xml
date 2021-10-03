@@ -17,6 +17,7 @@
 
     <string name="btn_play">play</string>
 
+    <string name="reference_title">REFERENSI</string>
     <string name="reference_1">https://stackoverflow.com/questions/26486730/in-android-app-toolbar-settitle-method-has-no-effect-application-name-is-shown</string>
     <string name="reference_2">https://developer.android.com/training/basics/firstapp/starting-activity#java</string>
     <string name="reference_3">https://www.youtube.com/watch?v=nlPtfncjOWA&amp;ab_channel=Stevdza-San</string>
