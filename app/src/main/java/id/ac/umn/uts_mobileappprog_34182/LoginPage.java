@@ -2,6 +2,7 @@ package id.ac.umn.uts_mobileappprog_34182;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -9,6 +10,7 @@ import android.widget.EditText;
 public class LoginPage extends AppCompatActivity {
     private EditText etLogin;
     private Button btnLogin;
+    private static final String INPUT_LOGIN = "id.ac.umn.uts_mobileappprog_34182.name";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +28,10 @@ public class LoginPage extends AppCompatActivity {
             if(etLogin.getText().toString().isEmpty() || etLogin.getText().toString() == " "){
                 etLogin.setError("Harap diisi");
             }else{
-                etLogin.setError("sudah diisi");
+                Intent intent = new Intent(this, AudioGallery.class);
+                String nama_login = etLogin.getText().toString();
+                intent.putExtra(INPUT_LOGIN,nama_login);
+                startActivity(intent);
             }
         });
 
