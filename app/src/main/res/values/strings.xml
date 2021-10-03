@@ -7,4 +7,8 @@
     <string name="nama_mahasiswa">Stefan Dharmawan</string>
     <string name="nim_mahasiswa">00000034182</string>
     <string name="kelas_mahasiswa">IF 570 - BL</string>
+
+    <string name="login_page_heading">Login Page</string>
+    <string name="login_page_hint">Masukkan nama Anda...</string>
+    <string name="btn_login">login</string>
 </resources>

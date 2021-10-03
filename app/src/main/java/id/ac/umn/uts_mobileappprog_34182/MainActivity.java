@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, ProfilePage.class);
             startActivity(intent);
         });
+
+        LibraryButton.setOnClickListener((v)->{
+            Intent intent = new Intent(this, LoginPage.class);
+            startActivity(intent);
+        });
     }
 
 }
