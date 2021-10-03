@@ -34,7 +34,7 @@
             android:paddingHorizontal="50dp"
             android:layout_marginVertical="30dp"
             android:background="@drawable/custom_button"
-            android:textColor="#ffffff"
+            android:textColor="@color/text_grey"
             android:text="@string/btn_profile"/>
 
         <Button
@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:paddingHorizontal="50dp"
             android:background="@drawable/custom_button"
+            android:textColor="@color/text_grey"
             android:text="@string/btn_library"/>
     </LinearLayout>
 </LinearLayout>

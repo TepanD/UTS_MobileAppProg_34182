@@ -10,11 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS_MobileAppProg_34182">
         <activity
+            android:name=".LoginPage"
+            android:exported="true" />
+        <activity
             android:name=".ProfilePage"
             android:exported="true"
             android:parentActivityName=".MainActivity">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
