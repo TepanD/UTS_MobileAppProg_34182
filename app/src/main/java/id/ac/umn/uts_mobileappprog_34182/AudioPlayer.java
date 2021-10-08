@@ -53,19 +53,32 @@ public class AudioPlayer extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        player.release();
-        player = null;
+        if(player != null){
+            if(player.isPlaying()){
+                player.stop();
+            }
+            player.release();
+            player = null;
+        }
+        finish();
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                player.release();
-                player = null;
+                if(player != null){
+                    if(player.isPlaying()){
+                        player.stop();
+                    }
+                    player.release();
+                    player = null;
+                }
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
 }
